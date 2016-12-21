@@ -1,0 +1,89 @@
+
+.banner{
+	background-image: url(../img/creamy.jpg); 
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+}
+.container-fluid{
+	background-color: rgba(0,0,0, 0.5);
+	background-size: cover;
+	height: 500px;
+}
+.titulo{
+	color: #F9FCD4;
+	margin-top:200px;
+	font-size: 50px;
+	font-family: "Merriweather";
+}
+h5{
+	color: #F9FCD4;
+	padding: 10px;
+	font-family: "Merriweather";
+}
+nav ul li{
+	list-style: none;
+	overflow-y: auto;
+}
+.navbar-default {
+    background-color: #F92E5E;
+    border-color: #F92E5E;
+    margin-bottom: 0px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #F9FCD4;
+}
+.navbar-default .navbar-brand {
+    color: #F9FCD4;
+}
+a:hover {
+  color: #F92E5E;
+}
+.crema{
+	padding:2%;
+	text-align: center;
+	color: #F92E5E;
+}
+.rojo{
+	color: #F9FCD4;
+	text-align: center;
+	padding: 40px;
+	font-family: "Merriweather";
+}
+.rojo1{
+	background-color: #F92E5E;
+}
+.crema1{
+	background-color: #F9FCD4;
+}
+.ice{
+	width: 420px;
+}
+@media screen and (max-width: 450px) {
+	.ice{
+	width: 290px;
+}
+}
+.ico{
+	background-color: #F9FCD4;
+	font-family: "Merriweather";
+}
+.iconos{
+	text-align: center;
+}
+.fa{
+	color: #F92E5E;
+	font-size: 150px;
+}
+.caja{
+	padding: 40px; 
+	color: #F92E5E;
+}
+footer{
+	background-color: #F92E5E;
+	color: #F9FCD4;
+	padding: 15px;
+	font-family: "Merriweather";
+}

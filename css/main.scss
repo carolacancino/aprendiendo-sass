@@ -1,0 +1,92 @@
+//scss
+.banner {
+  background-image: url(../img/creamy.jpg);
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.container-fluid {
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  height: 500px;
+}
+
+.titulo{
+  color: $color-secundario;
+  margin-top: 250px;
+  font-size: 50px;
+}
+
+h5 {
+  color: $color-secundario;
+  padding: 10px;
+}
+
+nav ul li {
+  list-style: none;
+  overflow-y: auto;
+}
+
+.navbar-default {
+  background-color: $color-principal;
+  border-color: $color-principal;
+  margin-bottom: 0px;
+
+  .navbar-nav > li > a, .navbar-brand {
+    color: $color-secundario;
+  }
+}
+
+.crema {
+  padding: 2%;
+  text-align: center;
+  color: $color-principal;
+}
+
+.rojo {
+  color: $color-secundario;
+  text-align: center;
+  padding: 40px;
+}
+
+.rojo1 {
+  background-color: $color-principal;
+}
+
+.crema1 {
+  background-color: $color-secundario;
+}
+
+.ice {
+  width: 520px;
+}
+
+.ico {
+  background-color: $color-secundario;
+}
+
+.iconos {
+  text-align: center;
+}
+
+.fa {
+  color: $color-principal;
+  font-size: 150px;
+}
+
+.caja {
+  padding: 40px;
+  color: $color-principal;
+}
+
+footer {
+  background-color: $color-principal;
+  color: $color-secundario;
+  padding: 15px;
+}
+.titulo h5 .rojo .ico footer{
+  font-family: $fuentes;
+}
